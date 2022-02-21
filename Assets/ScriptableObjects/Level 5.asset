@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996af03b7616dda48bbbfd6d9a780db9, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 7
+  boardLayout:
+  - x: 3
+    y: 3
+    tileKind: 5
+  - x: 2
+    y: 2
+    tileKind: 4
+  - x: 4
+    y: 4
+    tileKind: 4
+  - x: 2
+    y: 4
+    tileKind: 4
+  - x: 4
+    y: 2
+    tileKind: 4
+  dots:
+  - {fileID: 3718029624658745988, guid: 89193a498b21d154786dbdbe0a47913f, type: 3}
+  - {fileID: 5183745568823154145, guid: 40a6b005ada51ac4481b73a56c1538b5, type: 3}
+  - {fileID: 6008047461602637433, guid: 2096f71eec8930144a4395a984022f63, type: 3}
+  - {fileID: 7153244835192946684, guid: 9d064160c87d0cb45a4ccb4c3981a614, type: 3}
+  - {fileID: 6789850664297460, guid: d5623f3e456c2184686dc182524c2be2, type: 3}
+  scoreGoals: e8030000b0040000dc050000
+  endGameRequirement:
+    gameType: 1
+    counterValue: 120
+  levelGoals:
+  - numberNeed: 4
+    numberCollected: 5
+    goalSprite: {fileID: 21300000, guid: 5f761257cbb5b0049b6d766acfc37e77, type: 3}
+    matchValue: Chocolate
+  - numberNeed: 10
+    numberCollected: 20
+    goalSprite: {fileID: 21300000, guid: 7f3584ae159673a4096c0acbcbaf3b3b, type: 3}
+    matchValue: Blue Dot
